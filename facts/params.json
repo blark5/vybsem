@@ -1,0 +1,11 @@
+{
+  "source": "LA-LoRA, arXiv 2602.19926v1: Table 1 (Swin-B, mean +- std over 3 trials) and the appendix table of non-private results (tab:non_dp_swin_b)",
+  "reported_accuracy_swin_b": {
+    "tiny": {"eps1": 60.68, "eps2": 61.03, "eps3": 61.97,
+             "std": {"eps1": 0.55, "eps2": 0.67, "eps3": 0.56},
+             "nonprivate": 82.58},
+    "cifar100": {"eps1": 74.56, "eps2": 74.93, "eps3": 75.29,
+                 "std": {"eps1": 0.52, "eps2": 0.32, "eps3": 0.35},
+                 "nonprivate": 84.21}
+  }
+}
